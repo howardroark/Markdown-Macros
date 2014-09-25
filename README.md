@@ -52,9 +52,7 @@ each use case.
 
 The DOM `textContent` of each Macro could be easily acted on after load to
 produce the extended visual result. There is already a JavaScript variation
-called [Jison](http://zaach.github.io/jison/). This process would better
-ensure that Markdown is only ever extended in ways that are readable, or
-in effect searchable.
+called [Jison](http://zaach.github.io/jison/).
 
 #### An example
 
@@ -86,10 +84,6 @@ Bob-->Alice: I am good thanks!
 **Some SVG work after the DOM load**
 
 ![sequence](https://camo.githubusercontent.com/e8ee954236ea5f7fa37274c727c6267f2e3550e5/687474703a2f2f6272616d702e6769746875622e696f2f6a732d73657175656e63652d6469616772616d732f696d616765732f73616d706c652e737667)
-
-# Always readable
-
-*And writable*... Markdown should focus on maintaining a natural flow of thought. The less often you have to wonder about how to do something, the less often you loose your concentration.  The beauty of Markdown is that it just lets you keep typing, the syntax is so simple.  Any extension should do its utmost to ensure a syntax that just makes sense to the user.  
 
 #### Another practical example
 
