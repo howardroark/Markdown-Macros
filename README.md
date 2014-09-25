@@ -1,18 +1,64 @@
 # Markdown should be readable
 
-I have been thinking about the idea of a Macros for a long time.  I feel it is inevitable that the use of Markdown and Git will increase in any field that involves professional writing.  It solves so many of the peripheral problems that arise from the use of WSYIWIG editors and writing HTML directly.  Git just makes sense because documents need to evolve over time. It's a perfect reason to ensure that your lines are less than 80 characters (or maybe an even better number).  I see no reason to extend the core syntax to cater for any scenario outside of pure rational thought and argument. The core syntax should be readable and understandable in raw form by any reasonable person.  As Albert Einstein said... “If you can't explain it to a six year old, you don't understand it yourself.”
+The beauty of Markdown is how well it ensures that text is left in a readable
+state before parsing. There is much debate today about how to extend the
+syntax in a plethora of different directions. The reality is that Markdown
+itself is just fine the way it is. It lines up with way we have been structuring
+literature for thousands of years.
 
-There is going to be an increasing list of items that fall outside of this category. Many of which will need to be formatted in ways that go far beyond CSS and enter the realms of html canvas, svg, webgl... There should be a Macro standard that encourages people to extend Markdown in readable formats. If the job of Markdown is to output purely semantic html, all that really means is that it can be searchable by another human being... or readable. 
+There is no reason to extend the core syntax to cater for any scenario outside
+of pure rational thought and argument. The core syntax should be readable and
+understandable in raw form by any reasonable person.  As Albert Einstein
+said... “If you can't explain it to a six year old, you don't understand it
+yourself.”
 
-If we follow the UNIX philosophy well we may want to argue that Macros should just be their own process that happens before or after the parsing of Markdown itself.  I think that if the objective of both is to output HTML then it should happen at the same time to avoid security problems.  
+#### Markdown promises a truly semantic web
 
-The DOM `textContent` of each Macro could be easily acted on after load to produce the extended visual result.  Encourage the use of the ideas like [GNU Bison](http://en.wikipedia.org/wiki/GNU_bison) when designing the syntax of each Macro extension.  There is already a JavaScript variation called [Jison](http://zaach.github.io/jison/).
+Since the invention of HTML we have been struggling with the idea of how to
+ensure that the structure lines up with the semantics of what we are trying
+to convey. We conjure up ideas of hundreds of different elements that meet
+all sorts of arbitrary needs. All the while markup is dumped into the web
+without even properly making use of heading tags. Introducing more markup
+does nothing but complicate the process.
 
-This process would act as a way to protect the Markdown standard from becoming riddled with complex extensions.  There is a lot of risk that Markdown starts being used as a tool for web development or expressly for programmers.  If this starts to happen it could start to invalidate the potential for purely semantic HTML that Markdown has looked so promising to offer.  A lot of consideration needs to be made towards the reality that we are trying to make information more searchable here.
+Markdown is the opportunity to ensure that the web starts to fill with
+markup that resembles the core of what people are trying to express. People
+search the web in the way that they think, and it all revolves around
+language and the written word.
+
+#### Markdown is spreading
+
+It appears inevitable that the use of Markdown and Git will increase in any
+field that involves professional writing. It solves so many of the peripheral
+problems that arise from the use of WSYIWIG editors and writing HTML directly.
+The use of version control ensures that documents can easily evolve over time.
+
+As we enter into specific fields we will start to find more and more scenarios
+where specific features will be required within documents. Many of which will
+need to be formatted in ways that go far beyond CSS and enter the realms of html
+canvas, svg, webgl...
+
+There should be a Macro standard that encourages people to extend Markdown in
+readable formats. If the job of Markdown is to output purely semantic html, all
+that really means is that it can be searchable by another human being... or
+readable.
+
+#### One output for all
+
+Macros should be nothing more than a block of text that is acted on in the very
+same manner a paragraph of text. The Macro feature should encourage the use of
+ideas like [GNU Bison](http://en.wikipedia.org/wiki/GNU_bison) when designing
+each use case.
+
+The DOM `textContent` of each Macro could be easily acted on after load to
+produce the extended visual result. There is already a JavaScript variation
+called [Jison](http://zaach.github.io/jison/). This process would better
+ensure that Markdown is only ever extended in ways that are readable, or
+in effect searchable.
 
 #### An example
 
-I would like to offer the idea as an example which is inspired by the project [js-sequence-diagrams](http://github.com/bramp/js-sequence-diagrams) ...
+Here is an example which is inspired by the project [js-sequence-diagrams](http://github.com/bramp/js-sequence-diagrams) ...
 
 **Input**
 
