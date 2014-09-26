@@ -101,7 +101,8 @@ https://www.youtube.com/watch?v=JibxHpXqAfc
 If your goal is to turn Markdown into PDF files or anything related to printing
 you would be silly to not just build a solution that captures browser output
 with something like [PhantomJS](http://phantomjs.org/). You can build very smart
-solutions that use SVG and the block model.
+solutions that use SVG and the block model. When it comes to visualizations all
+of the best work is now centered around the browser.
 
 #### There is no longer a need to compress HTML
 
