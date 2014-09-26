@@ -94,18 +94,22 @@ Suppose you wanted a Macro that could normalize any video link into an embedded 
 https://www.youtube.com/watch?v=JibxHpXqAfc
 ```
 
-#### The DOM can make awesome things
+#### The browser can make awesome things
 
-If your goal is to turn Markdown into PDF files or anything related to printing you would be silly to not just build a solution that captures browser output with something like [PhantomJS](http://phantomjs.org/). You can build very smart solutions that use SVG and the block model.  I had a little success in a [quick attempt](https://github.com/codingcoop/get-diagrams) to port this idea to Markdown through HTTP GET parameters and image tags. It still has a bunch of bugs though and zero optimization.  The point is that I'd rather just do some DOM work after the Markdown rendering.  I want to build split screen editors that are smart and build off of ideas like GitHub's Jekyll.
+If your goal is to turn Markdown into PDF files or anything related to printing
+you would be silly to not just build a solution that captures browser output
+with something like [PhantomJS](http://phantomjs.org/). You can build very smart
+solutions that use SVG and the block model.
 
-#### Whitespace is informative
+#### There is no longer a need to compress HTML
 
-If it is a matter of compression, I just don't think there is real need.  Mobile networks are getting faster and the cloud keep on getting cheaper.  Why compress HTML?  Why loose any subtle amount of semantic data that could be hidden in the whitespace?  The main thing engineers need to worry about is the AMD JavaScript pattern that causes an excess of request cycles.  You should always compress your JavaScript into one file, that is the whole purpose of it's lexical make up.
+If it is a matter of compression, there is no longer a real need. Mobile
+networks are getting faster and the cloud keep on getting cheaper. Why compress
+HTML?  Why loose any subtle amount of semantic data that could be hidden in the
+whitespace?
 
 #### No need for inline
 
-There is no reasonable reason to extend Markdown to support the idea of inline Macros.  Outside of the agreed upon semantic features of writing itself nothing should need to exist inline with the text.
-
-===
-
-It's just a thought. Any consideration would be greatly appreciated!
+There is no reasonable reason to extend Markdown to support the idea of inline
+Macros. Outside of the agreed upon semantic features of writing itself nothing
+else should need to exist inline with the text.
