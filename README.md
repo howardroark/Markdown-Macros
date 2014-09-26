@@ -46,13 +46,13 @@ readable.
 #### One output for all
 
 Macros should be nothing more than a block of text that is acted on in the very
-same manner a paragraph of text. The Macro feature should encourage the use of
-ideas like [GNU Bison](http://en.wikipedia.org/wiki/GNU_bison) when designing
-each use case.
+same manner as a paragraph of text. The Macro feature should encourage the use
+of ideas like [GNU Bison](http://en.wikipedia.org/wiki/GNU_bison) when
+designing each use case.
 
 The DOM `textContent` of each Macro could be easily acted on after load to
 produce the extended visual result. There is already a JavaScript variation
-called [Jison](http://zaach.github.io/jison/).
+called [Jison](http://zaach.github.io/jison/) to aid in this endeavour.
 
 #### An example
 
